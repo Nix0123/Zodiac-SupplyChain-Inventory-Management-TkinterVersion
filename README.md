@@ -3,6 +3,8 @@ Zodiac is a Python-based desktop application built using Tkinter and ttkbootstra
 
 🌙 Zodiac – Intelligent Supply Chain Management System
 
+
+
 📖 Project Summary
 
 Zodiac is an intelligent and user-friendly Supply Chain Management System developed using Python (Tkinter) for the GUI and MySQL as the database backend.
@@ -22,6 +24,8 @@ Handling authentication and registration for multiple user roles.
 Providing visual insights into supply operations.
 
 The interface is designed using ttkbootstrap, giving it a sleek, modern look while retaining the simplicity of Tkinter.
+
+
 
 🧩 Key Features
 
@@ -61,54 +65,65 @@ Built using ttkbootstrap with dark mode themes, accent colors, and structured la
 
              pip install mysql-connector-python ttkbootstrap pillow
 
+
+
 2️⃣ Database Setup
 
 ➤ Create the Database
-CREATE DATABASE zodiac;
-USE zodiac;
+
+    CREATE DATABASE zodiac;
+    USE zodiac;
 
 ➤ Create Tables
 
-You’ll need the following main tables:
+      You’ll need the following main tables:
 
-admin_credentials
+           admin_credentials
 
-supplier_credentials
+           supplier_credentials
 
-users
+            users
 
-suppliers
+            suppliers
 
-products
+            products
 
-orders
+            orders
 
 You can run the full table creation script (provided separately) in your MySQL Workbench or terminal.
 
+
+
 ➤ Add Sample Entries
-INSERT INTO admin_credentials (admin_id, password) VALUES ('admin', 'admin123');
-INSERT INTO supplier_credentials (supplier_id, name, email, password)
-VALUES ('sup001', 'Apex Supplies', 'apex@zodiac.com', 'supplier123');
+
+    INSERT INTO admin_credentials (admin_id, password) VALUES ('admin', 'admin123');
+    INSERT INTO supplier_credentials (supplier_id, name, email, password)
+    VALUES ('sup001', 'Apex Supplies', 'apex@zodiac.com', 'supplier123');
+
+
 
 3️⃣ Configure Database Connection
 
 In db.py, verify that the credentials match your MySQL setup:
 
-DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': '',        # Add password if you have one
-    'database': 'zodiac'
-}
+    DB_CONFIG = {
+       'host': 'localhost',
+       'user': 'root',
+        'password': '',        # Add password if you have one
+       'database': 'zodiac'
+    }
+
+
 
 4️⃣ Run the Application
 
 Navigate to your project directory and execute:
 
-python main.py
-
+       python main.py
 
 The main window will launch, showing login options for Admin, Supplier, and Customer.
+
+
 
 🖥️ Usage Overview
 
@@ -121,6 +136,8 @@ Update stock, fulfill orders, and track delivery performance.
 Customer Panel:
 Browse products, place orders, and view delivery status.
 
+
+
 📈 Result and Visualization
 
 Zodiac simplifies end-to-end supply chain management by offering:
@@ -130,6 +147,8 @@ Seamless coordination between all user roles.
 Real-time data updates across dashboards.
 
 Smooth visual interface with responsive UI components.
+
+
 
 Highlights:
 
@@ -147,9 +166,11 @@ Automated email notifications for order updates.
 
 Web and mobile versions using Flask or Flutter.
 
+
 👨‍💻 Author
 
 Taranjeet Singh
 📧 [taran.pvt@gmail.com
 ]
+
 🕓 Developed as part of the Zodiac Supply Chain Project
