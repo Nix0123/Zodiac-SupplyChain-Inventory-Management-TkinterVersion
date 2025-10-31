@@ -2,6 +2,7 @@
 Zodiac is a Python-based desktop application built using Tkinter and ttkbootstrap that streamlines supplier, customer, and admin interactions in a supply chain ecosystem. It integrates MySQL for backend data management and provides real-time inventory tracking, order handling, and supplier performance visualization. 
 
 🌙 Zodiac – Intelligent Supply Chain Management System
+
 📖 Project Summary
 
 Zodiac is an intelligent and user-friendly Supply Chain Management System developed using Python (Tkinter) for the GUI and MySQL as the database backend.
