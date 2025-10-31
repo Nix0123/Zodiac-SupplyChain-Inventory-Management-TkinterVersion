@@ -44,20 +44,8 @@ Robust and reliable database connection with proper exception handling and modul
 Built using ttkbootstrap with dark mode themes, accent colors, and structured layouts.
 
 🧱 Project Structure
-Zodiac/
-│
-├── auth_admin.py           # Admin login & registration logic
-├── auth_supplier.py        # Supplier authentication system
-├── auth_customer.py        # Customer authentication and registration
-├── dashboard_admin.py      # Admin dashboard (overview, stock, orders)
-├── dashboard_supplier.py   # Supplier dashboard (orders, inventory)
-├── dashboard_customer.py   # Customer dashboard (order placing)
-├── db.py                   # MySQL database connection and utilities
-├── style.py                # Common color and font styling
-├── main.py                 # Entry point of the application
-├── assets/
-│   └── bg.jpg              # Background image used in the UI
-└── README.md               # Project documentation
+<img width="912" height="449" alt="image" src="https://github.com/user-attachments/assets/68f8179c-bddd-4f1f-bccf-6810bf90b950" />
+
 
 ⚙️ Setup Instructions
 1️⃣ Prerequisites
