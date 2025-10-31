@@ -48,19 +48,21 @@ Built using ttkbootstrap with dark mode themes, accent colors, and structured la
 
 
 ⚙️ Setup Instructions
+
 1️⃣ Prerequisites
 
-Before running the project, ensure the following are installed:
+      Before running the project, ensure the following are installed:
 
-🐍 Python 3.10+
+      🐍 Python 3.10+
 
-🧱 MySQL Server 8.0+
+      🧱 MySQL Server 8.0+
 
-📦 Python packages:
+      📦 Python packages:
 
-pip install mysql-connector-python ttkbootstrap pillow
+             pip install mysql-connector-python ttkbootstrap pillow
 
 2️⃣ Database Setup
+
 ➤ Create the Database
 CREATE DATABASE zodiac;
 USE zodiac;
